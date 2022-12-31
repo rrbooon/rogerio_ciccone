@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Cinzel', serif;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    font-family: 'Cinzel', serif;
+    color: antiquewhite;
+}
+
+article{
+    margin: 0 auto;
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text_header h1{
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.text_header h6{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.video_matrix{
+    height: 100%;
+    max-width: 50%;
+}
+
+main article{
+    justify-content: left;
+}
+
+.perfil_photo img{
+    height: 350px;
+    border-radius: 50px;
+}
+
+.about_me{
+    width: 50%;
+    margin-left: 15%;
+    font-family: 'Cinzel', serif;
+    color: rgb(105, 98, 90);
+}
+
+.about_me h2{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.about_me p{
+    font-size: 18px;
+}
+
+.projects{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: antiquewhite;
+}
+
+.projects h1{
+    margin: auto;
+    padding-top: 50px;
+    width: 1170px;
+}
+
+.projects h2{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.projects a{
+    color: antiquewhite;
+}
+
+.projects a:hover{
+    color: rgb(105, 98, 90);
+}
+
+.projects article{
+    flex-wrap: wrap;
+}
+
+.project_card{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.project_card span{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+    position: absolute;
+    width: 585px;
+    height: 20%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(61, 61, 61, 0.315);
+    border-radius: 10px;
+}
+
+.image_project{
+    width: 50%;
+    margin-right: 10px;
+}
+
+.image_project img {
+    width: 100%;
+    border-radius: 10px;
+}
